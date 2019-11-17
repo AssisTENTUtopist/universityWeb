@@ -109,7 +109,7 @@ function createTable(){
 			let cell = document.createElement("td");
 			let cellText = document.createElement("input", "type=textarea");
 			let cellText2 = document.createElement("button");
-			cellText2.setAttribute("onClick", "saveText("+i+", "+j+")");
+			cellText2.setAttribute("onClick", "saveText("+j+", "+i+")");
 			cellText2.innerHTML = "Save";
 			cell.appendChild(cellText);
 			cell.appendChild(cellText2);
